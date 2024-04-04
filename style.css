@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+.whole-page {
+    display: flex;
+    height: 100svh;
+    width: 100svw;
+}
+aside {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.not-aside {
+    height: 100%;
+    width: 80%;
+    padding: 0px 20px;
+    overflow-y: scroll;
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+}
+nav .menu-icon {
+    height: 40%;
+    width: 20px;
+    margin-right: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav .menu-lines {
+    height: 20%;
+    width: 100%;
+}
+
+nav #page-name {
+    margin-right: auto; 
+}
+
+main {
+    height: 80%;
+    width: 100%;
+}
+main .quick-info {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+main .quick-info-boxes {
+    height: 100%;
+    width: 24%;
+}
+main .graph-info {
+    margin-top: 20px;
+    height: 40%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .graph-info .graph-info-boxes {
+    height: 100%;
+    width: 49%;
+}
+
+footer .footer-info{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
